@@ -1,0 +1,76 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+h2 {
+    padding-left: 10px;
+    color: orange;
+}
+.paragraph {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#head-container {
+    background-color: #008B8B;
+    height: 100px;
+    margin: 0 auto 10px auto;
+    padding: 10px 0 0 0;
+    border: #333 solid 2px;
+}
+.intro-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  /* Căn giữa theo chiều dọc */
+    position: relative;
+}
+
+.flex-items {
+    margin: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;  /* Giữ các phần tử trong một cột */
+    justify-content: center;
+}
+
+/* Căn giữa ảnh trong #img */
+img {
+    display: block;
+    margin: 0 auto; /* Căn giữa ảnh */
+    width: 100%; /* Chiều rộng ảnh */
+    justify-content: center;
+    align-self: center;  /* Căn giữa ảnh theo chiều dọc */
+    cursor: pointer;
+}
+table {
+    width: 100%; /* Chiều rộng bảng */
+    border-collapse: collapse; /* Xóa khoảng cách giữa các ô */
+  }
+  
+  /* Viền cho các ô */
+th, td {
+    border: 2px solid #000; /* Viền đen cho các ô */
+    padding: 8px; /* Khoảng cách trong các ô */
+    text-align: center; /* Căn giữa văn bản */
+  }
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+
